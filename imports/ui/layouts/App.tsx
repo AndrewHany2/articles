@@ -19,7 +19,7 @@ const App = () => {
             <div className="d-flex flex-column min-vh-100">
                 <NavBar />
                 <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/articles/:id" element={<Article />} />
                 <Route path="/articles/add" element={<ProtectedRoute><Article/></ProtectedRoute>} />
                 <Route path="/articles/mine" element={<ProtectedRoute><Article /></ProtectedRoute>} />

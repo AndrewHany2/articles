@@ -45,10 +45,10 @@ const RegisterForm = () => {
                         if (err) {
                             console.log(err);
                             setError(err.reason);
-                        setLoading(false);
+                             setLoading(false);
                         } else {
                             navigate("/");
-                            setLoading(true);
+                            setLoading(false);
                         }
                   });
             }}
