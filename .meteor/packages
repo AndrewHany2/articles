@@ -24,3 +24,4 @@ zodern:types            # Pull in type declarations from other Meteor packages
 bootstrap
 dev-error-overlay
 accounts-password
+aldeed:collection2
